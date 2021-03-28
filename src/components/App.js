@@ -37,6 +37,7 @@ class App extends Component {
                   <div className="col-12">
                     <article>
                       <h2>{section.Name}</h2>
+                      <p>{section.Content}</p>
                     </article>
                   </div>
                 </div>
