@@ -12,7 +12,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header className="Header" dark={this.state.Dark}>
+        <Header
+          className="Header"
+          dark={this.state.Dark}
+          items={[
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Features
+              </a>
+            </li>
+          ]}
+        >
           {Config.Name}
         </Header>
       </div>
