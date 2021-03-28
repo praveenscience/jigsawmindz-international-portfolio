@@ -29,19 +29,21 @@ class App extends Component {
         >
           {Config.Name}
         </Header>
-        {Config.Sections.map(section => (
-          <section id={section.Name} key={section.Name}>
-            <div className="container">
-              <div className="row">
-                <div className="col-12">
-                  <article>
-                    <h2>{section.Name}</h2>
-                  </article>
+        {Config.Sections.map(section =>
+          section.Link ? null : (
+            <section id={section.Name} key={section.Name}>
+              <div className="container">
+                <div className="row">
+                  <div className="col-12">
+                    <article>
+                      <h2>{section.Name}</h2>
+                    </article>
+                  </div>
                 </div>
               </div>
-            </div>
-          </section>
-        ))}
+            </section>
+          )
+        )}
       </div>
     );
   }
