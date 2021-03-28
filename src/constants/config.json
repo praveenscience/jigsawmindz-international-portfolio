@@ -4,17 +4,24 @@
   "Image": "",
   "Sections": [
     {
-      "Name": "About"
+      "Name": "About",
+      "Content": "People call me Praveen or PravMan. I am an ailurophile, vegetarian, and an experimental chef. Well, I would like to experiment as much as I can, on food and my life. My body is made up of HTML & CSS, which is literally me! This defines me as a Full Stack Web Developer (Front End, Back End, Middleware, Whatever...)."
     },
     {
-      "Name": "Education"
+      "Name": "Education",
+      "Content": "I studied."
     },
     {
-      "Name": "Contact"
+      "Name": "Contact",
+      "Content": "Contact me!"
     },
     {
       "Name": "YouTube",
       "Link": "https://www.youtube.com/praveenscience"
+    },
+    {
+      "Name": "LinkedIn",
+      "Link": "https://www.linkedin.com/in/praveentech/"
     }
   ]
 }
