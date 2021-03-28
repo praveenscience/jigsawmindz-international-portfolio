@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header
-          className="Header"
+          className="Header fixed-top"
           dark={this.state.Dark}
           items={Config.Sections.map(section => (
             <a
