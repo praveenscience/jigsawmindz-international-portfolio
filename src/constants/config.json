@@ -1,5 +1,16 @@
 {
   "Name": "Shivam",
   "Description": "Web Developer",
-  "Image": ""
+  "Image": "",
+  "Sections": [
+    {
+      "Name": "About"
+    },
+    {
+      "Name": "Education"
+    },
+    {
+      "Name": "Contact"
+    }
+  ]
 }
